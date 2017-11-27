@@ -1,42 +1,59 @@
 body {
-    background-color: #7ed9ed;
+    background-color: #f4dddd;
     margin: 0;
     padding: 0;
-    font-family: 'Quattrocento Sans', sans-serif;
+    background-color: #f4dddd; -webkit-animation: pulse 30s infinite alternate;
 }
 
-h1{
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  resize: vertical;
+  overflow: auto;
+}
+.flex-center p {
+  margin: 0;
+  padding: 0;
+}
+
+
+a:link{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+div{
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+  font-style: italic;
+	font-variant: small-caps;
+  font-weight: lighter;
   text-align: center;
-  color: white;
-  font-family:'futura-pt';
-  font-size:130px;
-  font-weight:500;
-  letter-spacing:-2px;
-  font-family:bebas-neue;
-  font-size:110px;
-  font-weight:400;
-  font-style:normal;
-  text-transform:none;
-  letter-spacing:-.01em;
-  line-height:1em;
-  color: white;
 }
 
+h1 {
+  font-family: Impact,sans-serif;
+  font-variant: small-caps;
+  font-weight: lighter;
+  font-size: 100px;
+  text-align: center;
+  color: #fff;
+}
 
 @-webkit-keyframes pulse {
-  0% {
-    background-color: #7ed9ed;
-  }
-  33% {
-    background-color: #59d3b6;
-  }
-  66% {
-    background-color: #ed7e9e ;
-  }
-  100%  {
-    background-color: #7ed9ed;}
-  } 
-  body { background-color: #7ed9ed; -webkit-animation: pulse 30s infinite alternate;
+  0% {background-color: #f4dddd}
+  33% {background-color: #7ed9ed}
+  67% {background-color: #f7cbd8 }
+  100% {background-color: #f4dddd}
 }
-
 
